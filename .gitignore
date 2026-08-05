@@ -1,0 +1,38 @@
+﻿# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Poetry
+poetry.lock
+
+# Data
+data/raw/
+data/processed/
+data/warehouse/
+*.csv
+*.parquet
+*.db
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/

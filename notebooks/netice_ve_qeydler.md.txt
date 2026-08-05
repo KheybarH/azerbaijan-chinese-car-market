@@ -1,0 +1,42 @@
+# Layihə nəticələri və qeydlər
+Tarix: 5 Avqust 2026
+
+## Bu günə qədər edilənlər
+1. Turbo.az-dan Çin markalı avtomobil elanları scrape edildi
+2. Data təmizləndi (qiymət, il, yürüş, marka, model, şəhər)
+3. Çin olmayan markalar (məs. Subaru) silindi
+4. Data DuckDB-yə yükləndi
+5. Streamlit dashboard quruldu
+6. Uni-Z və qiymət analizi aparıldı
+
+## Əsas nəticələr
+
+### Bazar mənzərəsi
+- Ümumi elan sayı: 297
+- Ən çox elan: Changan
+- İkinci: BYD
+- Elanların böyük hissəsi Bakıdadır
+
+### Qiymət
+- Orta qiymət diapazonu təxminən 35–45 min ₼
+- Daha əlçatan: JAC JS2/JS4, Changan Oshan X5 Plus
+- Daha bahalı: BYD Leopard 8, JAECOO, GWM Tank seriyası
+
+### Changan Uni-Z
+- 2024: ~31.500 ₼ (1 elan)
+- 2025: orta ~34.935 ₼ (29 elan)
+- 2026: ~37.500 ₼ (1 elan)
+- Aktiv satılan modeldir
+
+### Qiymət itkisi
+- Data snapshot olduğu üçün eyni maşının zamanla ucuzlaşmasını dəqiq ölçmək olmur
+- Bazar siqnalı kimi JAC JS2 və Oshan X5 Plus bir qədər daha stabil/ucuz görünür
+
+## Vacib texniki qeydlər
+- Raw data silinməyib (`data/raw`)
+- Processed data: Parquet + CSV
+- Warehouse: DuckDB (`data/warehouse/cars.duckdb`)
+- Dashboard: Streamlit (`dashboards/app.py`)
+
+## Interview üçün qısa cümlə
+"Turbo.az-dan Çin markalı avtomobil elanlarını scrape etdim, təmizlədim, DuckDB-yə yüklədim və Streamlit dashboard ilə bazar analizini göstərdim. Changan bazarda liderdir, Uni-Z aktiv tələbat görən modellərdəndir."
