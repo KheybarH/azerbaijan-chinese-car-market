@@ -6,7 +6,7 @@ Bu layihə şəxsi portfoliodur və yalnız öyrənmə məqsədlidir. Kommersiya
 End-to-end Data Engineering layihəsi: Azərbaycanda Çin markalı avtomobillərin bazar analizi.
 
 ## Nə edir?
-- Turbo.az-dan Çin markalı avtomobil elanlarını scrape edir
+- İctimai elan səhifələrindən Çin markalı avtomobil məlumatını toplayır
 - Datani təmizləyir və strukturlaşdırır
 - DuckDB-yə yükləyir
 - Streamlit dashboard ilə vizuallaşdırır
