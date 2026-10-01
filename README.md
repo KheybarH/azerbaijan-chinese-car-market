@@ -1,5 +1,7 @@
 ﻿# Azerbaijan Chinese Car Market Pipeline
-# Bu layihə şəxsi portfoliodur və yalnız öyrənmə məqsədlidir. Kommersiya istifadəsi yoxdur. Mənbə ictimai elan səhifələridir.
+
+
+Bu layihə şəxsi portfoliodur və yalnız öyrənmə məqsədlidir. Kommersiya istifadəsi yoxdur. Mənbə ictimai elan səhifələridir.
 
 End-to-end Data Engineering layihəsi: Azərbaycanda Çin markalı avtomobillərin bazar analizi.
 
